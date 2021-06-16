@@ -1,28 +1,26 @@
+.heading
+{
+  font-size: 23px;
+  width: 100%;
+  margin: 0px;
+}
+.note
+{
+  font-size: 15px;
+  color: black;
+}
 body
 {
-    background-size: cover;
+  background-size: cover;	
 }
-
-canvas
-{
-    border: solid whitesmoke;
-    border-radius: 50px;
-    box-shadow: 18px 18px 18px black;
-    border-style: dashed;
-}
-
-div
-{
-    background-color: grey;
-    color: black;
-}
-
-.no1 {
-    position: fixed;
-    color: white;
-    bottom: 0;
-    width: 100%;
-    background-color:black;
-    line-height: 3;
-    text-align: center;
+  #song
+  {
+  	font-size: 23px;
+  	margin: 15px;
+  }
+    canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    box-shadow: 5px 5px 5px #73cfd8;
   }
