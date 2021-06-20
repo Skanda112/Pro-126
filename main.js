@@ -63,6 +63,18 @@ function draw() {
 	fill("#FF0000");
 	stroke("#FF0000");
 
+	if(scoreRightWrist > 0.2)
+	{ 
+		circle(rightWristX,rightWristY,20);
+
+			song2.stop();
+
+		if(song1_status == false)
+		{
+			song1.play();
+			document.getElementById("song").innerHTML = "Playing - Avengers Theme Song"
+		}
+	}
 
 	if(scoreLeftWrist > 0.2)
 	{
@@ -73,7 +85,7 @@ function draw() {
 		if(song2_status == false)
 		{
 			song2.play();
-			document.getElementById("song").innerHTML = "Playing - Harry Potter Theme Song"
+			document.getElementById("song").innerHTML = "Playing - Peter pan Theme Song"
 		}
 	}
 
